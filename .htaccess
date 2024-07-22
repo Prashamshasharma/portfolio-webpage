@@ -1,0 +1,9 @@
+<FilesMatch "\.php$">
+    SetHandler application/x-httpd-php
+</FilesMatch>
+
+<Directory "/path/to/your/directory">
+    Options Indexes FollowSymLinks
+    AllowOverride All
+    Require all granted
+</Directory>
